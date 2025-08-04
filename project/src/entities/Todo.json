@@ -1,0 +1,22 @@
+{
+  "name": "Todo",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the todo item"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the todo item"
+    },
+    "completed": {
+      "type": "boolean",
+      "description": "Whether the todo item is completed"
+    }
+  },
+  "required": [
+    "title",
+    "completed"
+  ]
+}
